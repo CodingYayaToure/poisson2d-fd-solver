@@ -44,3 +44,10 @@ Thumbs.db
 # Temporary GIF frame dirs
 docs/assets/_frames/
 docs/assets/_rot_frames/
+
+# Résidus ancienne structure à la racine
+convergence.gif
+convergence.png
+rotation_3d.gif
+solution_comparison.png
+env_ov/
