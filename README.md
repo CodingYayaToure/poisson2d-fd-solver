@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧮 Poisson2D — Finite Difference Solver
+#  Poisson2D — Finite Difference Solver
 
 **2D Poisson equation solver on the unit square using the 5-point finite-difference scheme**
 
@@ -40,7 +40,7 @@
 
 ---
 
-## 🔬 Problem statement
+##  Problem statement
 
 We solve the 2D Poisson problem with homogeneous Dirichlet boundary conditions on the unit square Ω = (0,1)²:
 
@@ -102,7 +102,7 @@ poisson2d/
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 # 1 — Clone
@@ -126,7 +126,7 @@ make check
 
 ---
 
-## 🛠️ Usage
+##  Usage
 
 ### Run the full pipeline
 
@@ -191,7 +191,7 @@ U        = solve_direct(A, B)
 
 ---
 
-## 📊 Results
+##  Results
 
 ### Paraview visualizations
 
@@ -290,7 +290,7 @@ CPU time **grows with N** as expected (sparse LU solver complexity O(N² log N) 
 
 ---
 
-## 🖥️ Interactive dashboard
+##  Interactive dashboard
 
 ```bash
 make dashboard
@@ -299,9 +299,9 @@ make dashboard
 
 | Tab | Features |
 |---|---|
-| 🔍 **Solve** | Pick test case, set N with a slider, display U / ū / error side by side |
-| 📈 **Convergence** | Run a full convergence study over any N range with log-log plots |
-| 📂 **VTK viewer** | Upload any `.vtk` file and inspect its scalar fields interactively |
+|  **Solve** | Pick test case, set N with a slider, display U / ū / error side by side |
+|  **Convergence** | Run a full convergence study over any N range with log-log plots |
+|  **VTK viewer** | Upload any `.vtk` file and inspect its scalar fields interactively |
 
 ---
 
