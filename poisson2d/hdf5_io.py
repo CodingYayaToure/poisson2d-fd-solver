@@ -30,7 +30,7 @@ from typing import Callable
 import h5py
 import numpy as np
 
-from solver import (
+from .solver import (
     build_grid,
     build_laplacian,
     build_rhs,

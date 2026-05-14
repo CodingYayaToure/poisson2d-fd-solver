@@ -18,7 +18,7 @@ from typing import Literal
 
 import numpy as np
 
-from solver import build_grid, node_coords, build_laplacian, build_rhs, solve_direct
+from .solver import build_grid, node_coords, build_laplacian, build_rhs, solve_direct
 
 
 # ---------------------------------------------------------------------------

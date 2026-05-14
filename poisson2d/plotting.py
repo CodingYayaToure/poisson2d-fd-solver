@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np
 
-from solver import (
+from .solver import (
     build_grid,
     build_laplacian,
     build_rhs,
