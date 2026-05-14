@@ -1,0 +1,46 @@
+# =============================================================================
+#  .gitignore — Poisson2D FD Solver
+# =============================================================================
+
+# Generated outputs (regenerate with `make run`)
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temporary GIF frame dirs
+docs/assets/_frames/
+docs/assets/_rot_frames/
